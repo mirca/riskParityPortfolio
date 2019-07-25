@@ -2,14 +2,14 @@
 layout: default
 title: Home
 nav_order: 1
-description: "*riskParityPortfolio* is a software tool focused on the design of risk parity portfolios using fast, accurate, state-of-the-art optimization methods."
+description: "*riskParityPortfolio* is an R package focused on the design of risk parity portfolios using fast, accurate, state-of-the-art optimization methods."
 permalink: /
 ---
 
 # Fast and scalable design of risk parity portfolios
 {: .fs-9 }
 
-**riskParityPortfolio** is a software tool focused on the design of risk parity
+**riskParityPortfolio** is an R package focused on the design of risk parity
 portfolios using fast, accurate, state-of-the-art optimization methods.
 
 {: .fs-6 .fw-300 }
@@ -22,17 +22,17 @@ portfolios using fast, accurate, state-of-the-art optimization methods.
 
 ### Dependencies
 
-The R version of **riskParityPortfolio** is build on top of awesome R packages including **Rcpp**,
+**riskParityPortfolio** is build on top of awesome R packages including **Rcpp**,
 **RcppEigen**, **quadprog**, **alabama**, and **nloptr**. All these packages can be installed via CRAN.
 
 ### Installation
 
-1. The **stable** R version can be installed via CRAN as
+1. The **stable** version can be installed via CRAN as
 ```bash
 install.packages("riskParityPortfolio")
 ```
 
-2. The **development** R version can be installed via GitHub as
+2. The **development** version can be installed via GitHub as
 ```bash
 devtools::install_github("dppalomar/riskParityPortfolio")
 ```
@@ -40,8 +40,8 @@ devtools::install_github("dppalomar/riskParityPortfolio")
 
 ### Tutorials
 
-- [See the package vignette](https://cran.r-project.org/web/packages/riskParityPortfolio/vignettes/RiskParityPortfolio.html) for a
-detailed description of the mathematical methods that are available in **riskParityPortfolio**.
+- [See the package vignette](https://cran.r-project.org/web/packages/riskParityPortfolio/vignettes/RiskParityPortfolio.html)
+for a detailed description of the mathematical methods that are available in **riskParityPortfolio**.
 
 ---
 
